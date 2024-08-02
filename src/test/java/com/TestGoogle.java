@@ -1,3 +1,4 @@
+package com;
 // import org.openqa.selenium.WebDriver;
 // import org.openqa.selenium.chrome.ChromeDriver;
 // import org.openqa.selenium.remote.RemoteWebDriver;
@@ -16,7 +17,7 @@ public class TestGoogle extends BaseTest{
             // DesiredCapabilities capabilities = DesiredCapabilities.chrome();
             // WebDriver driver = new RemoteWebDriver(seleniumHub, capabilities);
             // driver.get("http://www.google.com");
-            test = extent.createTest("Sample Test", "This is a sample test");
+            // test = extent.createTest("Sample Test", "This is a sample test");
 
             System.out.println("Title:");
             // driver.quit();
